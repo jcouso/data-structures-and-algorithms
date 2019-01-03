@@ -23,8 +23,8 @@ int main() {
    int n = sizeof(arr)/ sizeof(arr[0]);
    int x = 10;
    int result = binary_search(arr, 0, n-1, x);
-   (result == -1)? printf("Element is not present in array\n")
-                 : printf("Element is present at index %d\n",
+   (result == -1) ? printf("Element is not present in array\n")
+                  : printf("Element is present at index %d\n",
                                                    result);
    return 0;
 
